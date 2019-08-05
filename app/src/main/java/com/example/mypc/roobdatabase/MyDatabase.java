@@ -8,5 +8,4 @@ public abstract class MyDatabase extends RoomDatabase
     //public abstract MyDao myDao();
     public abstract NewDao newDao();
     public abstract Dao2 dao2();
-
 }
