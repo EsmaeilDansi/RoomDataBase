@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        Toast.makeText(getApplicationContext(),"wellcome",Toast.LENGTH_LONG).show();
         myDatabase= Room.databaseBuilder(getApplicationContext(),MyDatabase.class,"mydata.db").allowMainThreadQueries().addMigrations().build();
 
         save.setOnClickListener(new View.OnClickListener()
