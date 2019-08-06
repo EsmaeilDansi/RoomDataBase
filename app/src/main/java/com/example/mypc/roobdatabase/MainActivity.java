@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(getApplicationContext(),"wellcome",Toast.LENGTH_LONG).show();
         myDatabase= Room.databaseBuilder(getApplicationContext(),MyDatabase.class,"mydata.db").allowMainThreadQueries().addMigrations().build();
         Toast.makeText(getApplicationContext(),"jbcdfdwu",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"newbranch....",Toast.LENGTH_LONG).show();
+        int j=0;
+        Toast.makeText(getApplicationContext(),"j="+j,Toast.LENGTH_LONG).show();
 
 
 
