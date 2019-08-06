@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(getApplicationContext(),"newbranch....",Toast.LENGTH_LONG).show();
         int j=0;
         Toast.makeText(getApplicationContext(),"j="+j,Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"branch1....",Toast.LENGTH_LONG).show();
+        //
+        //
+        //
 
 
 
