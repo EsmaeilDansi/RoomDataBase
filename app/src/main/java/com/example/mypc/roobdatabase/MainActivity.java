@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity
         init();
         Toast.makeText(getApplicationContext(),"wellcome",Toast.LENGTH_LONG).show();
         myDatabase= Room.databaseBuilder(getApplicationContext(),MyDatabase.class,"mydata.db").allowMainThreadQueries().addMigrations().build();
+        Toast.makeText(getApplicationContext(),"jbcdfdwu",Toast.LENGTH_LONG).show();
+
+
+
 
         save.setOnClickListener(new View.OnClickListener()
         {
