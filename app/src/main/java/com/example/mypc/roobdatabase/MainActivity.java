@@ -29,13 +29,11 @@ public class MainActivity extends AppCompatActivity
         int j=0;
         Toast.makeText(getApplicationContext(),"j="+j,Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(),"branch1....",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"new mwwsage",Toast.LENGTH_LONG).show();
         //
         //
         //
         //gjdfiguodfstyt
-
-
-
 
         save.setOnClickListener(new View.OnClickListener()
         {
